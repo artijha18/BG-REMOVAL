@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '@clerk/clerk-react';
 import { assets } from '../assets/assets';
 
-const API_ENDPOINT = 'http://localhost:3000/api/remove-background';
+const API_ENDPOINT = 'https://bg-removal-1-v743.onrender.com/api/remove-background';
 
 const Upload = () => {
     const [selectedFile, setSelectedFile] = useState(null);
