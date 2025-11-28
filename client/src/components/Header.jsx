@@ -16,7 +16,7 @@ const Loader = (props) => (
     </svg>
 );
 
-const API_ENDPOINT = 'http://localhost:3000/api/remove-background';
+const API_ENDPOINT = 'https://bg-removal-1-v743.onrender.com/api/remove-background';
 
 const useAuth = () => {
     const [isSignedIn] = useState(true);
